@@ -1,0 +1,269 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-secondary-container: #7b444e;
+  --color-surface-container-low: #f7f3ed;
+  --color-on-tertiary-container: #e9c49d;
+  --color-secondary-fixed: #ffd9de;
+  --color-surface-container-highest: #e6e2dc;
+  --color-tertiary-container: #6b5031;
+  --color-primary-fixed-dim: #eabda0;
+  --color-on-primary-container: #eec1a4;
+  --color-on-error: #ffffff;
+  --color-on-primary-fixed: #2d1604;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-fixed: #2b1701;
+  --color-error-container: #ffdad6;
+  --color-on-secondary: #ffffff;
+  --color-outline: #82746d;
+  --color-surface-bright: #fdf9f3;
+  --color-on-surface: #1c1c18;
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary: #874e58;
+  --color-on-secondary-fixed-variant: #6b3741;
+  --color-tertiary-fixed-dim: #e5c099;
+  --color-on-tertiary-fixed-variant: #5c4224;
+  --color-surface-container-high: #ebe8e2;
+  --color-surface-container: #f1ede7;
+  --color-outline-variant: #d4c3ba;
+  --color-on-primary: #ffffff;
+  --color-surface-dim: #dddad4;
+  --color-inverse-on-surface: #f4f0ea;
+  --color-on-secondary-fixed: #360c17;
+  --color-on-surface-variant: #50453e;
+  --color-surface-tint: #79573f;
+  --color-primary-fixed: #ffdcc6;
+  --color-on-error-container: #93000a;
+  --color-inverse-surface: #31302d;
+  --color-background: #fdf9f3;
+  --color-surface-variant: #e6e2dc;
+  --color-primary: #553722;
+  --color-on-primary-fixed-variant: #5f402a;
+  --color-secondary-container: #ffb6c1;
+  --color-primary-container: #6f4e37;
+  --color-surface: #fdf9f3;
+  --color-tertiary-fixed: #ffddbb;
+  --color-inverse-primary: #eabda0;
+  --color-tertiary: #52391c;
+  --color-error: #ba1a1a;
+  --color-secondary-fixed-dim: #fcb3be;
+  --color-on-background: #1c1c18;
+
+  --font-display-lg: "Playfair Display", Georgia, serif;
+  --font-display-lg-mobile: "Playfair Display", Georgia, serif;
+  --font-headline-lg: "Playfair Display", Georgia, serif;
+  --font-headline-lg-mobile: "Playfair Display", Georgia, serif;
+  --font-headline-md: "Playfair Display", Georgia, serif;
+  --font-headline-sm: "Playfair Display", Georgia, serif;
+  --font-body-lg: "Merriweather", Georgia, serif;
+  --font-body-md: "Merriweather", Georgia, serif;
+  --font-body-sm: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-label-lg: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-label-md: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-label-sm: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdf9f3;
+    color: #1c1c18;
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(130, 116, 109, 0.28);
+    border-radius: 9999px;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+/* Editorial typography utilities supporting responsive Tailwind v4 variants */
+@utility text-display-lg {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 3.25rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+@utility text-display-lg-mobile {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+@utility text-headline-lg {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+@utility text-headline-lg-mobile {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+@utility text-headline-md {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+@utility text-headline-sm {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+@utility text-body-lg {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.95rem;
+  font-weight: 300;
+}
+
+@utility text-body-md {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+}
+
+@utility text-body-sm {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.35rem;
+  font-weight: 400;
+}
+
+@utility text-label-lg {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+
+@utility text-label-md {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+@utility text-label-sm {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+/* Dynamic Studio Theme Switcher Classes */
+.theme-strawberry {
+  --chat-sender: #ffe5ec;
+  --chat-sender-text: #6b3741;
+  --chat-receiver: #ffffff;
+  --chat-receiver-text: #1c1c18;
+  --accent-pill: #ffb6c1;
+  --paper-tint: #fff9fa;
+  --border-tint: rgba(244, 172, 183, 0.4);
+}
+
+.theme-vintage {
+  --chat-sender: #ffdcc6;
+  --chat-sender-text: #553722;
+  --chat-receiver: #ffffff;
+  --chat-receiver-text: #1c1c18;
+  --accent-pill: #eabda0;
+  --paper-tint: #fbf7f2;
+  --border-tint: rgba(111, 78, 55, 0.2);
+}
+
+.theme-lavender {
+  --chat-sender: #ede7f6;
+  --chat-sender-text: #4527a0;
+  --chat-receiver: #ffffff;
+  --chat-receiver-text: #1c1c18;
+  --accent-pill: #d1c4e9;
+  --paper-tint: #faf8fc;
+  --border-tint: rgba(103, 58, 183, 0.2);
+}
+
+.theme-matcha {
+  --chat-sender: #e8f5e9;
+  --chat-sender-text: #2e7d32;
+  --chat-receiver: #ffffff;
+  --chat-receiver-text: #1c1c18;
+  --accent-pill: #c8e6c9;
+  --paper-tint: #f6faf6;
+  --border-tint: rgba(46, 125, 50, 0.25);
+}
+
+.ruled-paper {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 31px,
+    rgba(111, 78, 55, 0.08) 31px,
+    rgba(111, 78, 55, 0.08) 32px
+  );
+  line-height: 32px;
+}
+
+/* Midnight Dark Reading Lounge high-contrast surface adaptation */
+.reader-midnight .reader-surface {
+  background-color: #312c28 !important;
+  color: #f3ece3 !important;
+}
+
+.reader-midnight .reader-surface-alt {
+  background-color: #3b3530 !important;
+  color: #f3ece3 !important;
+}
+
+.reader-midnight .reader-ink-primary {
+  color: #ffdcc6 !important;
+}
+
+.reader-midnight .reader-ink-muted {
+  color: #d4c3ba !important;
+}
+
+.reader-midnight .reader-ink-accent {
+  color: #ffb6c1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

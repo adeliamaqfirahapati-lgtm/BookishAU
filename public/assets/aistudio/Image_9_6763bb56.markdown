@@ -1,0 +1,227 @@
+---
+name: Storybook Ephemera
+colors:
+  surface: '#fdf9f3'
+  surface-dim: '#dddad4'
+  surface-bright: '#fdf9f3'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f7f3ed'
+  surface-container: '#f1ede7'
+  surface-container-high: '#ebe8e2'
+  surface-container-highest: '#e6e2dc'
+  on-surface: '#1c1c18'
+  on-surface-variant: '#50453e'
+  inverse-surface: '#31302d'
+  inverse-on-surface: '#f4f0ea'
+  outline: '#82746d'
+  outline-variant: '#d4c3ba'
+  surface-tint: '#79573f'
+  primary: '#553722'
+  on-primary: '#ffffff'
+  primary-container: '#6f4e37'
+  on-primary-container: '#eec1a4'
+  inverse-primary: '#eabda0'
+  secondary: '#874e58'
+  on-secondary: '#ffffff'
+  secondary-container: '#ffb6c1'
+  on-secondary-container: '#7b444e'
+  tertiary: '#52391c'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#6b5031'
+  on-tertiary-container: '#e9c49d'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdcc6'
+  primary-fixed-dim: '#eabda0'
+  on-primary-fixed: '#2d1604'
+  on-primary-fixed-variant: '#5f402a'
+  secondary-fixed: '#ffd9de'
+  secondary-fixed-dim: '#fcb3be'
+  on-secondary-fixed: '#360c17'
+  on-secondary-fixed-variant: '#6b3741'
+  tertiary-fixed: '#ffddbb'
+  tertiary-fixed-dim: '#e5c099'
+  on-tertiary-fixed: '#2b1701'
+  on-tertiary-fixed-variant: '#5c4224'
+  background: '#fdf9f3'
+  on-background: '#1c1c18'
+  surface-variant: '#e6e2dc'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 3.25rem
+    fontWeight: '600'
+    lineHeight: 3.75rem
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.75rem
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: '0'
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 1.5rem
+    fontWeight: '500'
+    lineHeight: 2rem
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 1.25rem
+    fontWeight: '500'
+    lineHeight: 1.75rem
+  body-lg:
+    fontFamily: Merriweather
+    fontSize: 1.125rem
+    fontWeight: '300'
+    lineHeight: 1.95rem
+  body-md:
+    fontFamily: Merriweather
+    fontSize: 1rem
+    fontWeight: '300'
+    lineHeight: 1.75rem
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.35rem
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.9375rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.8125rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.6875rem
+    fontWeight: '700'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-desktop: 2rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3.5rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+
+This design system establishes an intimate, comforting digital sanctuary tailored for alternative universe (AU) writers, readers, and multimedia narrative creators. It synthesizes the physical nostalgia of stationery journaling—pressed botanicals, parchment folios, and embossed book spines—with the sleek functionality of modern interactive fiction software (chat simulations, character profile dossiers, and branching prose).
+
+### Design Movement: Literary Tactile Romanticism
+The aesthetic avoids sterile productivity tropes in favor of:
+- **Parchment Canvas:** Warm, low-strain paper surfaces layered with gentle card decks that mimic archival leafing.
+- **Micro-Delight & Whimsy:** Delicate pastel callouts and soft blush ribbons counterbalanced by grounding chestnut leather ink tones.
+- **Narrative Immersion:** Clean, modern controls frame immersive, high-legibility serif narrative blocks, creating an experience akin to reading an illustrated bespoke zine under soft lamplight.
+
+## Colors
+
+The palette draws from antique stationers, sun-faded bookcloth, and pressed rosewater petals. It avoids stark absolute blacks and sterile cold whites.
+
+### Hierarchy & Functional Mapping
+- **Neutral Canvas (`#FAF6F0`):** Acts as the foundational ground, simulating tactile rag paper. Page surfaces use `#FFFFFF` for primary cards to lift them subtly off the warm cream floor.
+- **Primary Ink (`#6F4E37`):** Vintage warm chestnut brown. Replaces standard interface black for all critical text, prominent iconography, and structural active states, imparting literary warmth without ocular fatigue.
+- **Secondary Highlight (`#F4ACB7`):** Dusty petal rose. Reserved for interactive flourishes, AU tags, selected tabs, reading progress markers, and playful accent states.
+- **Tertiary Accent (`#DDB892`):** Warm biscuit/leather tone used for auxiliary borders, story timeline nodes, divider rules, and secondary badges.
+- **Muted Contrast (`#4A3B32`):** Deep roasted walnut for headline emphasis and high-contrast editorial titles.
+- **Semantic Washes:** Success states employ sage-infused greens (`#8FBC8F`), warnings utilize amber marmalade (`#E09F67`), and errors rely on soft vintage terracotta (`#D96B6B`).
+
+## Typography
+
+The typography implements a dual-personality structure: an artisanal, classic literary voice for reading and titles, complemented by an approachable, hyper-legible geometric sans-serif for platform navigation, AU chat simulations, and metadata badges.
+
+### Role Stratification
+- **Display & Headlines (`Playfair Display`):** Sets dramatic, romantic, and bookish tones for story titles, chapter headings, and key collection headers. Features delicate bracketed serifs and high contrast.
+- **Narrative Body (`Merriweather`):** Employed strictly for long-form prose, user chapter submissions, and lore descriptions. Set with generous line heights (`1.75` to `1.95`) to preserve eye comfort across extended reading sessions.
+- **Application Controls & Meta (`Plus Jakarta Sans`):** Powers toolbars, form inputs, timestamp trackers, tags, social mockups (text message AUs, fake tweets), and shelf filters. Its rounded terminals mirror the system's pill-shaped aesthetics.
+
+## Layout & Spacing
+
+The layout model simulates open-page layouts and scrapbook arrangements through an airy, disciplined 12-column grid.
+
+### Layout Rhythm
+- **Editorial Centering:** Long-form prose blocks max out at a reader-optimized width of `68ch` to maintain structural rhythm, automatically centered within fluid parent viewports.
+- **Story Shelf Galleries:** Multimedia components (AU chat cards, moodboards, character rosters) align to fluid masonry or responsive auto-fit grids spanning 1 column (mobile), 2 columns (tablet), and 3 to 4 columns (desktop).
+- **Responsive Dynamics:**
+  - **Mobile (< 640px):** Single-column canvas with compact `1rem` margins and `1.25rem` gutters. Toolbars collapse into a floating, rounded bottom-dock.
+  - **Tablet (641px - 1024px):** 6-column to 12-column transition, `2rem` outer page margins. Side panels shift to bottom-drawer sheets.
+  - **Desktop (> 1024px):** 12-column grid with `3.5rem` outer canvas padding, allowing asymmetrical side margins reminiscent of wide-margin printed annotations and author notes.
+
+## Elevation & Depth
+
+This system intentionally rejects cold, blur-heavy tech elevation in favor of pressed, layered-paper dimensionality.
+
+### Ambient Depth Strategy
+- **Layer 0 (Desk/Floor):** Parchment background (`#FAF6F0`) textured by ambient tone.
+- **Layer 1 (The Sheet / Base Cards):** Pure cotton-paper white (`#FFFFFF`) or cream tint (`#FDFBF7`) resting atop the desk. Casts a soft, tinted drop shadow: `0 4px 20px -2px rgba(111, 78, 55, 0.06), 0 2px 6px -1px rgba(111, 78, 55, 0.04)`.
+- **Layer 2 (Floating Ephemera / Modals / Menus):** Overlays, popovers, and sticky control ribbons. Casts a warm, diffuse ambient shadow: `0 12px 32px -4px rgba(74, 59, 50, 0.12), 0 4px 12px -2px rgba(74, 59, 50, 0.06)`.
+- **Ghost Outlines:** Instead of harsh borders, surfaces rely on warm biscuit borders (`#EFE3D3` or `rgba(111, 78, 55, 0.1)`) at `1px` solid, keeping outlines soft and reminiscent of bookbinding stitching.
+
+## Shapes
+
+The design uses deeply rounded, friendly contours that suggest organic stationer edges, hand-cut cardstock, and gentle aesthetic softness.
+
+### Shape Hierarchy
+- **Pill Containers (`roundedness: 3`):** Interactive inputs, pill filters, metadata chips, and primary buttons use full-radius pill styling (`9999px` / `1rem+`).
+- **Feature Cards & Surfaces:** Substantial cards and interactive AU preview tiles use `rounded-2xl` (`1.25rem`) and `rounded-3xl` (`1.75rem`), creating an approachable, tactile silhouette.
+- **Micro Shapes:** Tooltips, notifications, and inner chat bubbles maintain `rounded-xl` (`0.875rem`) to ensure proportional harmony without descending into sharp rigidity.
+
+## Components
+
+### Buttons
+- **Primary:** Filled in deep chestnut (`#6F4E37`) with pure cream text (`#FAF6F0`), full pill rounding (`rounded-full`), `px-6 py-3`, with an internal subtle glow on hover (`#8B5E3C`).
+- **Secondary (AU Pastel):** Filled in dusty rose wash (`#FFE5EC`), text in deep chestnut (`#6F4E37`), subtle border (`1px solid #F4ACB7`).
+- **Ghost / Text:** Transparent background with warm chestnut text; hover reveals an organic wash of `#F4EDE4`.
+
+### Chips & AU Tropes Tags
+- **Style:** Compact pill enclosures (`px-3 py-1`, `label-sm`).
+- **Variations:** 
+  - *Canon Divergence / Tropes:* Tinted rose-100 background with rose-900 typography.
+  - *Character Roles:* Pale chamomile yellow or warm parchment background with chestnut text and a delicate border (`#DDB892`).
+
+### Input Fields & Search Bars
+- **Style:** Clean pill or `rounded-2xl` surfaces in `#FFFFFF` with inset borders (`1px solid #E9DEC8`).
+- **Focus State:** Border shifts to secondary accent (`#F4ACB7`) accompanied by a subtle tinted focus ring (`0 0 0 3px rgba(244, 172, 183, 0.35)`). Label remains docked in `Plus Jakarta Sans` regular.
+
+### Cards & Story Shelves
+- **Story Dossier Card:** Pure white ground, `rounded-3xl`, bordered by `1px solid rgba(111, 78, 55, 0.08)`. Features an elevated top thumbnail slot with a soft overlay ribbon for chapter count and bookmark state.
+- **AU Interactive Message Card (Social Simulator):** Styled as realistic handheld chat feeds with staggered speech bubbles (`rounded-2xl`), where character A speaks in dusty rose bubbles (`#FFE5EC`) and character B responds in soft parchment cream (`#F4EDE4`).
+
+### Checkboxes, Radios, and Toggles
+- **Controls:** Fully rounded circles with leather chestnut active fills.
+- **Toggles:** Soft pink tracking canal (`#FFE5EC`) paired with a floating white ceramic pill slider.
+
+### Lists & Chapter Indexes
+- **Style:** Separated by hairline dividers tinted in `#EFE3D3`. Items utilize hover reveals of soft cream (`#FAF6F0`), accompanied by Playfair Display chapter indices and right-aligned reading timestamps.

@@ -1,0 +1,6 @@
+{
+  "name": "Folio & Petal",
+  "description": "An intimate Storybook Ephemera sanctuary for alternative universe writers and readers featuring branching prose folios, handheld chat simulations, and character dossiers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
